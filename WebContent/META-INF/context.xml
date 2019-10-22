@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+	<!-- 各環境に合わせて url のパスを変更 -->
+	<Resource
+		name="jdbc/datasource"
+		type="javax.sql.DataSource"
+		driverClassName="org.sqlite.JDBC"
+		url="jdbc:sqlite:X:/Eclipse/workspace-IF/Forum/res/db/forum.sqlite3"
+	 />
+</Context>
