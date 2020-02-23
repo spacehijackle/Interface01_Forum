@@ -12,7 +12,7 @@ import com.fw.form.BaseForm;
 public class ForumActionSpecificInfo implements ActionSpecificInfo
 {
 	@Override
-	public Action<BaseForm> getDefaultAction()
+	public Action<BaseForm> createDefaultAction()
 	{
 		return (new ThreadListAction());
 	}
